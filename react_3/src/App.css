@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+input, button, select {
+    padding: 8px;
+}
+
+.center-input {
+    /*
+    ezek lesznek majd a input-ra meg ezekre, mert azok alapból nem block elemek és még kap egy kis margin-t is fent-lent, hogy 
+    el legyenek választva egymástól, auto jobb-bal meg, hogy középen legyen
+    */
+    display: block;
+    margin: 15px auto;
+}
+
+.container {
+    width: 1080px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.tasks-ul {
+    width: 500px;
+    margin: auto;
+}
+
+.tasks-ul li {
+    list-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 40px; /*hogy vertikálisan középen legyen, horizontálisan már ott van a margin: auto miatt az ul-nek megadva*/
+    border: 1px solid grey;
+}
+
+.small-input {
+    padding: 3px;
+    margin: 0 15px;
+}
